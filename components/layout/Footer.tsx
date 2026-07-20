@@ -36,13 +36,17 @@ export function Footer() {
               >
                 <Linkedin size={18} />
               </a>
-              <a
-                href={`mailto:${siteConfig.email}`}
-                className="text-[var(--secondary)] hover:text-[var(--accent)] transition-colors"
-                aria-label="Email"
-              >
-                <Mail size={18} />
-              </a>
+              
+              {/*
+                  <a
+                    href={`mailto:${siteConfig.email}`}
+                    className="text-[var(--secondary)] hover:text-[var(--accent)] transition-colors"
+                    aria-label="Email"
+                  >
+                    <Mail size={18} />
+                  </a>
+              */}
+              
             </div>
           </div>
 
